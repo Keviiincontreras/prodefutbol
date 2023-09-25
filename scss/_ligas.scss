@@ -4,11 +4,23 @@ main{
         padding: 10px;
         text-align: center;
     }
-    .tabla1{
+}
+
+    .contenedor{ 
         display: flex;
-        justify-content: center;
-        margin-left: 40%;
-        height: 300px;
-        width: 300px;
-    }
+        flex-direction: column;
+        width: 100%;
+
+}
+.contenedorprincipal{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 40px;
+}
+@media screen and (max-width: 700px) {
+    .contenedorprincipal{ 
+        display: flex;
+        flex-direction: column;
+}
 }

@@ -4,8 +4,21 @@ main{
         padding: 10px;
         text-align: center;
     }
+    .cont{
+        display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 40px;
+    }
     .formulario{
         width: 1000px;
         margin-left: 2%;
+        
     }
+}
+@media screen and (max-width: 700px) {
+    .contenedorprincipal{ 
+        display: flex;
+        flex-direction: column;
+}
 }

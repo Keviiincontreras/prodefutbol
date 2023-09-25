@@ -30,7 +30,7 @@ body {
   margin-top: 3%;
 }
 
-.contenedor {
+.contenedorgrid {
   display: grid;
   gap: 10px;
   grid-template-areas: "logo" "menu" "main" "footer";
@@ -210,6 +210,7 @@ main .card:hover .card__info-hover {
 @media screen and (max-width: 700px) {
   main .cards {
     flex-direction: column;
+    padding: 40px;
   }
 }
 
@@ -258,6 +259,13 @@ main .campeonatos-container {
   grid-column-gap: 2rem;
   max-width: 1200px;
 }
+@media screen and (max-width: 700px) {
+  main .campeonatos-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+}
 main .campeonatos-container .card {
   width: 100% !important;
 }
@@ -267,24 +275,48 @@ main h2 {
   padding: 10px;
   text-align: center;
 }
-main .tabla1 {
+
+.contenedor {
   display: flex;
-  justify-content: center;
-  margin-left: 40%;
-  height: 300px;
-  width: 300px;
+  flex-direction: column;
+  width: 100%;
 }
 
+.contenedorprincipal {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  padding: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedorprincipal {
+    display: flex;
+    flex-direction: column;
+  }
+}
 main h2 {
   font-size: 3rem;
   padding: 10px;
   text-align: center;
+}
+main .cont {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  padding: 40px;
 }
 main .formulario {
   width: 1000px;
   margin-left: 2%;
 }
 
+@media screen and (max-width: 700px) {
+  .contenedorprincipal {
+    display: flex;
+    flex-direction: column;
+  }
+}
 main h2 {
   font-size: 3rem;
   padding: 10px;

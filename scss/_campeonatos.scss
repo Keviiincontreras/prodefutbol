@@ -45,8 +45,17 @@ ul{
     grid-column-gap: 2rem;
     max-width: 1200px;
 }
+
+    @media screen and (max-width: 700px) {
+        .campeonatos-container{ 
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+    }
+}
+   
+    
 .campeonatos-container .card{
     width: 100% !important;
 }
-
 }
