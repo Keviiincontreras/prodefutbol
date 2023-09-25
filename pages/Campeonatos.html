@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- link a bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <!--link a estilo propio-->
+     <link rel="stylesheet" href="../scss/styles.css">
+     <style>
+        .flexcontainer{
+          display: flex;
+        }
+        .flexcontainer div{
+          display: flex;
+        }
+        </style>
+    <title>Prode Futbol</title>
+</head>
+<body class="grid-container">
+
+        <div class="container-fluid px-0">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                  <a class="navbar-brand"><img id="logo" src="../imagenes/Prode blanco.png"> &nbsp;&nbsp;&nbsp;Prode Futbol</a>
+                  <span class="v-line"></span>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link mx-2" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-2" href="../pages/Campeonatos.html">Campeonatos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-2" href="../pages/Reglamento.html">Reglamento</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-2" href="../pages/Contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mx-2 btn rounded-0 btn-danger" href="#">Ingresar</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        <div class="contenedor">
+            <div class="Logo"></div>
+            <div class="Nav"></div>
+            <div class="Info"></div>
+            <div class="Fot"></div>
+          </div>
+    
+    <main class="main-container">
+        <section class="campeonatos text-white">
+            <h2>Campeonatos</h2>
+          </section>
+          <div class="flex-container campeonatos-container">
+           
+        <div class="card text-white bg-dark ">
+            <img src="../imagenes/bandera-argentina.jpg" class="card-img" alt="bandera arg">
+            <div class="card-img-overlay">
+                <a class="nav-link" href="./Arg.html"><h2 class="la">Liga Argentina</h5></a>
+              </div>
+          </div>
+          <div class="card text-bg-dark">
+            <img src="../imagenes/fondo-realista-bandera-chile.jpg" class="card-img" alt="bandera arg" href="./Chi.html" >
+            <div class="card-img-overlay">
+                <a class="nav-link" href="./Chi.html"><h5 class="lc">Liga Chile</h5></a>
+            </div>
+       
+          </div>
+          <div class="card text-bg-dark">
+            <img src="../imagenes/bandera-inglaterra.jpg" class="card-img" alt="bandera arg" >
+            <div class="card-img-overlay" href="./ing.html">
+                <a class="nav-link" href="./ing.html"><h5 class="li">Liga Inglaterra</h5></a>
+            </div>
+          </div>
+          <div class="card text-bg-dark">
+            <img src="../imagenes/bandera-espana.jpg" class="card-img" alt="bandera arg" href="./Esp.html">
+            <div class="card-img-overlay">
+                <a class="nav-link" href="./Esp.html"><h5 class="le">Liga España</h5></a>
+            </div>
+          </div>
+          
+        </div>
+        
+ </main>
+ <div class="footer">
+        <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+        
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Prodefutbol</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
