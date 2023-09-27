@@ -4,46 +4,31 @@ h2{
     padding: 10px;
     text-align: center;
 }
-.la{
-    font-size: 3rem;
-    text-align: center;
-    padding: 70px;
-}
-.lc{
-    font-size: 3rem;
-    text-align: center;
-    padding: 70px;
-}
-.li{
-    font-size: 3rem;
-    text-align: center;
-    padding: 70px;
-}
-.le{
-    font-size: 3rem;
-    text-align: center;
-    padding: 70px;
-}
-ul{
-    padding: 1rem;
+h5{
+    margin: 0;
 }
 .card{
      
     height: 300px;
     width: 1000px;
     margin-top: 30px;
+   
   }
   .card-img{
-    filter: opacity(0.6);
+    filter: opacity(0.4);
     height: 300px;
     width: 1000px;
     max-width: 100%;
+    
+    
   }
   .campeonatos-container{
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     max-width: 1200px;
+   
 }
 
     @media screen and (max-width: 700px) {
