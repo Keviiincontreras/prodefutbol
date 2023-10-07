@@ -6,20 +6,25 @@ main{
     
 }
 
-    .contenedor{ 
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
-        
-
-}
-.contenedorprincipal{
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contenedor-tabla {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .contenedorprincipal {
     display: flex;
     flex-direction: row;
     gap: 4rem;
-   
-}
+    padding: 40px;
+  }
+  
 
 @media screen and (max-width: 700px) {
     .contenedorprincipal{ 
